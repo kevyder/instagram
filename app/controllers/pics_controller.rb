@@ -1,5 +1,12 @@
 class PicsController < ApplicationController
+  before_action :find_pic, only: [:show, :update, :destroy, :edit]
+
   def index
+    @pics = Pic.all
+  end
+
+  def show
+
   end
 
   def new
@@ -19,5 +26,9 @@ class PicsController < ApplicationController
 
   def pic_params
     params.require(:pic).permit(:title, :description)
+  end
+
+  def find_pic
+    @pic = Pic.find(params[:id])
   end
 end
