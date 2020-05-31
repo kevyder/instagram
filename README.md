@@ -1,24 +1,23 @@
-# README
+# Instagram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+June 2018
 
-Things you may want to cover:
+## It use:
 
-* Ruby version
+* Ruby 2.6.3 (updated)
 
-* System dependencies
+* Ruby on Rails '5.2.0'
 
-* Configuration
+* SQLite3 '1.3.13'
 
-* Database creation
+* haml '5.0.4'
 
-* Database initialization
+* simple_form '4.0.1'
 
-* How to run the test suite
+* Bootstrap-sass '3.3.7'
 
-* Services (job queues, cache servers, search engines, etc.)
+* Devise '4.4.3'
 
-* Deployment instructions
+* Masonry-rails '0.2.4'
 
-* ...
+* acts_as_votable '0.11.1'
